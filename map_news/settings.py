@@ -31,7 +31,9 @@ CSRF_COOKIE_SECURE = True
 DEBUG = True
 
 ALLOWED_HOSTS = [
-        '3.9.191.239'
+        '3.9.191.239',
+        'localhost',
+        '127.0.0.1'
         ]
 
 
