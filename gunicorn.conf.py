@@ -1,5 +1,5 @@
 wsgi_app = "map_news.wsgi"
-bind = '127.0.0.1:430'
+bind = '0.0.0.0:8000'
 # The granularity of Error log outputs
 loglevel = "debug"
 # The number of worker processes for handling requests
