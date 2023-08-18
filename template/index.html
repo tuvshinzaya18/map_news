@@ -3,8 +3,15 @@
 <!DOCTYPE html>
 <html>
     <head>
+	    <link rel='stylesheet' href='{% static 'country_color.css' %}'>
+	    <script src='{% static 'require.js' %}'> </script>
+	    <script src='{% static 'jquery.js' %}'> </script>
+	    <script src='{% static 'svg-pan-zoom/svg-pan-zoom.js' %}'> </script>
+	    <script src='{% static 'color_change.js' %}'> </script>
     </head>
     <body>
-	 Hello atom
+         {% autoescape off %}
+         {% includestatic "wrld-22.svg"%}
+         {% endautoescape %}
     </body>
 </html>

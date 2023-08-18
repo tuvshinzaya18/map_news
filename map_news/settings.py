@@ -44,6 +44,8 @@ ALLOWED_HOSTS = [
         '.tuvshinzaya.com'
         ]
 
+CSP_STYLE_SRC = ("'self'","'unsafe-inline'")
+CSP_SCRIPT_SCR = ("'self'")
 
 # Application definition
 
@@ -54,7 +56,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'map_news'
+    'map_news',
 ]
 
 MIDDLEWARE = [
